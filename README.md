@@ -2,16 +2,11 @@
 
 ### Multiple Linear Regression on CNC Turning Data
 
-## Overview
+## Motivation
 
-This project analyzes the relationship between CNC turning parameters and surface roughness using multiple linear regression.
+Surface roughness is an important indicator of machining quality and can be affected by different cutting conditions.
 
-The main parameters are:
-
-- Cutting speed (`vc`)
-- Feed rate (`f`)
-- Depth of cut (`ap`)
-- Surface roughness (`Ra`)
+This project was carried out to investigate how cutting speed, feed rate, and depth of cut are related to surface roughness and to build an interpretable model for predicting the resulting surface finish.
 
 ## Methods
 
@@ -30,7 +25,7 @@ The main parameters are:
 | MAE | 0.160 |
 | RMSE | 0.214 |
 
-The model provides an interpretable baseline for relating machining parameters to surface roughness.
+The regression model provides an interpretable baseline for relating machining parameters to surface roughness.
 
 ## Tools
 
