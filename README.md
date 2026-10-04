@@ -2,11 +2,11 @@
 
 ### Multiple Linear Regression on CNC Turning Data
 
-## Motivation
+## Overview
 
-Surface roughness is an important indicator of machining quality and can be affected by different cutting conditions.
+Surface roughness is an important indicator of machining quality and is influenced by different cutting conditions.
 
-This project was carried out to investigate how cutting speed, feed rate, and depth of cut are related to surface roughness and to build an interpretable model for predicting the resulting surface finish.
+This project investigates how cutting speed, feed rate, and depth of cut are related to surface roughness and uses multiple linear regression to build an interpretable prediction model.
 
 ## Methods
 
@@ -25,7 +25,7 @@ This project was carried out to investigate how cutting speed, feed rate, and de
 | MAE | 0.160 |
 | RMSE | 0.214 |
 
-The regression model provides an interpretable baseline for relating machining parameters to surface roughness.
+The model provides an interpretable baseline for relating machining parameters to surface roughness.
 
 ## Tools
 
